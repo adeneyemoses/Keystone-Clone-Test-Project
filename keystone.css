@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(banking.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heading{
+    text-align: center;
+    font-size: 18px;
+}
+.keystone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    border: 5px white solid;
+    border-radius: 20px 20px 20px 20px;
+    height: 150px;
+    width: 450px;
+    cursor: pointer;
+}
+.keystone a{
+    color: #fff;
+    text-decoration: none;
+}
+.keystone a:hover{
+    color: yellow;
+}
+.keystone:hover{
+    transform: scale(1.1);
+}
+.copyright{
+    background-color: black;
+    height: 50px;
+    color: dimgray;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: dimgray;
+}
+.copyright a:hover{
+    text-decoration: underline;
+    color: blue;
+}
