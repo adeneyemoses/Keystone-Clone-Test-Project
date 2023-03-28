@@ -3,6 +3,7 @@
 }
 body{
     background-image: url(banking.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 0px auto;
 }
