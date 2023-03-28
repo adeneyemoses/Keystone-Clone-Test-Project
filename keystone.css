@@ -19,7 +19,7 @@ body{
     font-weight: bold;
 }
 .keystone{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: darkblue;
